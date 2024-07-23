@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap');
+
+em {
+  font-style: italic; }
+
+body {
+  background-color: white; }
+
+main {
+  margin: 0 auto 0 auto;
+  font-family: var(--font-family--main);
+  width: 65%;
+  min-height: 20em;
+  display: relative; 
+  h2 {
+    font-size: 1.7em;
+    padding: 0.5em 0 1em 0;
+    color: var(--color-brand--1); }
+  h3 {
+    color: var(--color-light--1);
+    font-size: 1.3em;
+    font-style: italic;
+    padding-bottom: 0.3em; }
+  ul {
+    list-style-type: disc;
+    list-style-position: inside; }
+  li {
+    color: var(--color-light--1);
+    font-size: 1.3em; }
+  p {
+    color: var(--color-light--1);
+    font-size: 1.3em;
+    line-height: 1.5em;
+    padding-bottom: 1em; }}
+
+.pageTitle {
+    font-size: 3em;
+    font-family: var(--font-family--main);
+    padding: 0.5em 0 0.5em 0;
+    color: var(--color-brand--1); }
+
+.hangingIndent {
+  padding-left: 1em;
+  text-indent: -1em; }
+
+.indentBlock {
+  padding-left: 1em;
+}
+
+.autoIndent {
+  text-indent: 1em; }
+
+.no-margin-bottom {
+  padding-bottom: 0;
+  margin-bottom: 0 }

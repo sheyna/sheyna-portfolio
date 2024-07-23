@@ -1,0 +1,25 @@
+.siteFooter {
+  z-index: 1;
+  display: static;
+  width: 100%;
+  bottom: 0;
+  margin: 5em 0 0 0;
+  padding: 2em 0 5em 0;
+  background-color: white;
+  box-shadow: 0 0 3em 0 var(--color-brand--2); }
+  @media only screen and (max-width: 450px) {
+    .site-footer {
+      margin-top: 3em; } }
+  .siteFooter p {
+    /* color: #a1a1a1; */
+    color: var(--color-light--1);
+    font-size: 0.8em;
+    line-height: 1em;
+    margin-top: 0.5em;
+    margin-left: 15%;
+    position: relative; }
+    .site-footer p.copyrightNote {
+      display: inline-block; }
+      @media only screen and (max-width: 450px) {
+        .site-footer p.copyrightNote {
+          margin-left: 2em; } }
