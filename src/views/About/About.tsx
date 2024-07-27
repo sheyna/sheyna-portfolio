@@ -8,72 +8,18 @@ export default function About() {
       <Header/>
       <SiteNav page="about"/>
       <main id="mainContent">
-        <h1 tabindex="0" className="pageTitle">About</h1>
-        <p tabindex="0">I am a front-end web developer and graphic designer with a background in journalism. As a visual storyteller I marry code, copy and images to bring promotions and web applications to life.</p>
-        <h2 tabindex="0">Technical Skills</h2>
-        <section className={styles.stats}>
-          <h3 tabindex="0">Languages:</h3>
-          <ul>
-            <li tabindex="0">React</li>
-            <li tabindex="0">Vite</li>
-            <li tabindex="0">JavaScript</li>
-            <li tabindex="0">CSS/Sass/Less</li>
-            <li tabindex="0">TypeScript</li>
-            <li tabindex="0">Express.js</li>
-            <li tabindex="0">Node.js</li>
-            <li tabindex="0">HTML</li>
+        <h1 className="pageTitle">About</h1>
+        <p>I am an experienced front-end web developer with 12+ years of experience in graphic design, coding, and visual storytelling. As an instructor in web design and development, I keep up to date on changes in technology to deliver the most up-to-date instruction. I bring my design skills, technical understanding, and background in print journalism to every role.</p>
+        <p>Most recently, I worked for Code Fellows as the Lead Instructor for Front-End Development in a progressive and accelerated boot camp program. This role required great people skills to address students' needs and concerns, flexibility, and the knowledge to work with technical issues like cloud outages, internet connectivity, and unannounced application updates.</p>
+        <p>I started my career working in local newsrooms doing graphic design and page design, where I won six design awards from the Society of Professional Journalists. I hired and trained design staff at The Chronicle of Centralia and created the newspaper's style guide for font treatment, colors, and general design treatments.</p>
+        <p>In 2012, I moved to online design, creating banners, slideshows, and other promotions for local automotive dealerships, where my contract was extended multiple times. Since that career pivot, I’ve supported multiple companies in Front-End Development and Responsive Web Design, including mastering CSS.</p>
+          <ul className={styles.list}>
+            <li>Certified JavaScript Developer</li>
+            <li>Graphic Design, UI Development</li>
+            <li>React, MongoDB, JavaScript, HTML, CSS</li>
+            <li>Companies: Cobalt Group/CDK Global, Sincro, Code Fellows</li>
+            <li>Industries: Journalism, Advertising, Marketing, Education</li>
           </ul>
-        </section>
-        <section className={styles.stats}>
-          <h3 tabindex="0">Technologies:</h3>
-          <ul>
-            <li tabindex="0">Auth0</li>
-            <li tabindex="0">MongoDB</li>
-            <li tabindex="0">Axios</li>
-            <li tabindex="0">WorkPress</li>
-            <li tabindex="0">Redux</li>
-            <li tabindex="0">Material UI</li>
-          </ul>
-        </section>
-        <section className={styles.stats}>
-          <h3 tabindex="0">Tools:</h3>
-          <ul>
-            <li tabindex="0">Adobe Creative Suite (Photoshop, Illustrator)</li>
-            <li tabindex="0">MailChimp</li>
-            <li tabindex="0">Sketch/Miro</li>
-            <li tabindex="0">Zoom</li>
-            <li tabindex="0">Google Suite</li>
-            <li tabindex="0">Microsoft Office</li>
-          </ul>
-        </section>
-        <section className={styles.stats}>
-          <h3 tabindex="0">Skills:</h3>
-          <ul>
-            <li tabindex="0">Front End Web Development</li>
-            <li tabindex="0">UI/UX</li>
-            <li tabindex="0">Graphic Design</li>
-            <li tabindex="0">Collaboration with Design and Engineering Teams</li>
-            <li tabindex="0">Curriculum Development</li>
-            <li tabindex="0">Group Training</li>
-            <li tabindex="0">Coaching</li>
-            <li tabindex="0">Mentoring</li>
-            <li tabindex="0">API Development</li>
-            <li tabindex="0">eCommerce</li>
-            <li tabindex="0">CI/CD</li>
-          </ul>
-        </section>
-        <h2 tabindex="0">Education</h2>
-        <p className="hangingIndent no-margin-bottom" tabindex="0">BACHELOR OF ARTS, Graphic Design</p>
-        <p className="indentBlock">Northwest Nazarene University &mdash; Nampa, Idaho, 2001</p>
-
-        <p className="hangingIndent no-margin-bottom" tabindex="0">CERTIFICATE, JavaScript</p>
-        <p className="indentBlock">University of Washington, Continuum College, Professional & Continuing Education &mdash; Seattle, Wash., 2018</p>
-
-        <p className="hangingIndent no-margin-bottom" tabindex="0">CERTIFICATE, Front-End, UX, Design and Development</p>
-        <p className="indentBlock">Code Fellows &mdash; Seattle, Wash., 2014
-        Certificate, </p>
-
-        
       </main>
     </>
   )

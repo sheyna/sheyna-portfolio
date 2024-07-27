@@ -10,6 +10,7 @@ import './App.css'
 
 const Home = lazy(() => import('./views/Home/Home'));
 const About = lazy(() => import('./views/About/About'));
+const Resume = lazy(() => import('./views/Resume/Resume'));
 const Portfolio = lazy(() => import('./views/Portfolio/Portfolio'));
 
 const theme = createTheme({
@@ -42,6 +43,12 @@ const theme = createTheme({
       }
     }
   },
+  typography: {
+    fontFamily: [
+      'Vollkorn', 
+      'serif'
+    ].join(','),
+  },
 });
 
 function App() {
@@ -54,6 +61,7 @@ function App() {
           <Routes>
             <Route index element={<Home/>}/>
             <Route path="/about" element={<About/>}/>
+            <Route path="/resume" element={<Resume/>}/>
             <Route path="/portfolio" element={<Portfolio/>}/>
           </Routes>
           <Footer/>

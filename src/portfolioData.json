@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "title": "Census Age Calculator",
+    "gitRepo": [
+      "https://github.com/sheyna/census-age-calculator"
+    ],
+    "liveSite": "https://candid-moonbeam-152246.netlify.app",
+    "description": "",
+    "projectDate": "",
+    "techStack": [
+      ""
+    ],
+    "images": [
+      "images/agecalc-1.png",
+      "images/agecalc-2.png",
+      "images/agecalc-3.png"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Literary Map of England",
+    "gitRepo": [
+      "https://github.com/sheyna/literary-map",
+      "https://github.com/sheyna/literary-map-server"
+    ],
+    "liveSite": "https://imaginative-narwhal-d3f6c2.netlify.app",
+    "description": "",
+    "projectDate": "",
+    "techStack": [
+      ""
+    ],
+    "images": [
+      "images/litmap-1.png",
+      "images/litmap-2.png",
+      "images/litmap-3.png"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Star Wars Character Index",
+    "gitRepo": [
+      "https://github.com/sheyna/star-wars-characters"
+    ],
+    "liveSite": "https://unruffled-brown-a55286.netlify.app",
+    "description": "",
+    "projectDate": "",
+    "techStack": [
+      ""
+    ],
+    "images": [
+      "images/starwars-1.png",
+      "images/starwars-2.png"
+    ]
+  }
+]

@@ -12,6 +12,9 @@ export default function SiteNav(props) {
           <Link to="/portfolio" className={props.page === 'portfolio' && styles.currentPage}>Portfolio</Link>
         </li>
         <li>
+          <Link to="/resume" className={props.page === 'resume' && styles.currentPage}>Resume</Link>
+        </li>
+        <li>
           <Link to="/about" className={props.page === 'about' && styles.currentPage}>About</Link>
         </li>
       </ul>

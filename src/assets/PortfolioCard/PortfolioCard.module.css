@@ -1,0 +1,19 @@
+.portfolioCard {
+  position: relative;
+
+}
+
+.actionsBar {
+  position: absolute;
+  bottom: 0;
+}
+
+.cardTitle {
+  padding: .2rem .2rem 1.5rem .2rem;
+  font-size: .8rem;
+}
+
+.css-4p5cg3-MuiTypography-root {
+  font-family: var(--font-family--main);
+  font-size: .8rem;
+}
