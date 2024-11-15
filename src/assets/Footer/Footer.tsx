@@ -10,7 +10,7 @@ export default function Footer() {
         <a href="https://twitter.com/SheynaW" title="Twitter" target="_blank"><span className="icon-twitter"></span></a>
         <a href="https://www.linkedin.com/in/sheynawatkins" title="LinkedIn" target="_blank"><span className="icon-linkedin"></span></a> */}
       </section>
-      <p className={styles.copyrightNote} tabIndex="0">&copy; 2024, Sheyna Watkins</p>
+      <p className={styles.copyrightNote}>&copy; 2024, Sheyna Watkins</p>
   </footer>
   )
 }

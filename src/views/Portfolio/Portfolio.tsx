@@ -10,11 +10,11 @@ export default function Portfolio() {
   return (
     <>
       <Header/>
-      <SiteNav page="portfolio"/>
+      <SiteNav/>
       <main id="main-content">
-        <p>Portfolio</p>
+      <h1 className="pageTitle">Portfolio</h1>
         <Grid container spacing={2} alignItems="stretch">
-          {data.map(item => <Grid item xs={16} sm={6} md={5} lg={4} key={item.id} className={styles.stretch}><PortfolioCard item={item}/></Grid>)}
+          {data.map(item => <Grid item xs={12} sm={6} md={5} lg={4} key={item.id} className={styles.stretch}><PortfolioCard item={item}/></Grid>)}
         </Grid>
       </main>
     </>

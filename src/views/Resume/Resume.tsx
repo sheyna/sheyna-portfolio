@@ -6,7 +6,7 @@ export default function Resume() {
   return (
     <>
       <Header/>
-      <SiteNav page="resume"/>
+      <SiteNav/>
       <main id="mainContent">
         <h1 className="pageTitle">Resume</h1>
         <p>Experienced Front-End Web Developer with 12+ years of experience designing and coding websites in fast-paced work environments and as an instructor in online academic settings.</p>

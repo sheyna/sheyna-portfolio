@@ -1,21 +1,25 @@
-import { Link } from "react-router-dom"
+import { NavLink } from "react-router-dom"
 import styles from "./SiteNav.module.css"
 
-export default function SiteNav(props) {
-  let navStyles = styles.navItems;
-  if (props.additionalClass) navStyles += ` ${styles[props.additionalClass]}`;
+type sitNavProps = {
+  additionalClass?: string,
+}
+
+export default function SiteNav({ additionalClass }: sitNavProps) {
+  let navStyles = `${styles.navItems} navLinks`;
+  if (additionalClass) navStyles += ` ${styles[additionalClass]}`;
 
   return (
     <nav className={navStyles} id="navTarget">
       <ul>
         <li>
-          <Link to="/portfolio" className={props.page === 'portfolio' && styles.currentPage}>Portfolio</Link>
+          <NavLink to="/portfolio">Portfolio</NavLink>
         </li>
         <li>
-          <Link to="/resume" className={props.page === 'resume' && styles.currentPage}>Resume</Link>
+          <NavLink to="/resume">Resume</NavLink>
         </li>
         <li>
-          <Link to="/about" className={props.page === 'about' && styles.currentPage}>About</Link>
+          <NavLink to="/about">About</NavLink>
         </li>
       </ul>
     </nav>

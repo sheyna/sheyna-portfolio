@@ -1,56 +1,111 @@
 [
   {
-    "id": 1,
+    "id": 0,
     "title": "Census Age Calculator",
     "gitRepo": [
-      "https://github.com/sheyna/census-age-calculator"
+      {
+        "url": "https://github.com/sheyna/census-age-calculator",
+        "name": "Front End"
+      }
     ],
     "liveSite": "https://candid-moonbeam-152246.netlify.app",
-    "description": "",
-    "projectDate": "",
+    "description": "This tool is an aid to genealogists trying to determine the approximate age of an ancestor based on their reported age at various census date. It is well known that ages reported in census reports are approximate and birth dates weren't commonly reported until fairly recently. One reason that data from past census can be fuzzy is because if you weren't home when the census ennumorator came to your house, the ennumorator could ask your neighbors for the information about you (ex. 'We think she's about 30 years old'). Genealogist today have to take in all available data to approximate the most likely birth date for an ancestor. This tool takes some off the work load when it comes to calcuating ages on the various census dates. At the moment this app has 2 census options, more can be added. There is an option to show or hide the 1890 U.S. Federal Census — this census was almost entirely lost in a fire etc... and in unavailble for most ancestors. It's a bit of a score subject to genealogists.",
+    "features": [
+      "Enter a birth date, see ages on dates calcuated from that birth date",
+      "Pick which census records you want calculated in a result.",
+      "Uses Day.js to manage dates",
+      "Responsive design: works great in mobile and desktop"
+    ],
+    "projectDate": "November 2023",
     "techStack": [
-      ""
+      "React", "Vite", "JavaScript", "Material UI", "Day.js"
     ],
     "images": [
-      "images/agecalc-1.png",
-      "images/agecalc-2.png",
-      "images/agecalc-3.png"
+      {
+        "src": "images/agecalc-1.png",
+        "alt": "Census Age Calculator home page"
+      },
+      {
+        "src": "images/agecalc-2.png",
+        "alt": "Census Age Calculator — entering a birthdate produces a list of ages on the dates of census after that birthdate."
+      },
+      {
+        "src": "images/agecalc-3.png",
+        "alt": "Census Age Calculator — the census menu allows users to customize which census records to use."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "title": "Literary Map of England",
+    "gitRepo": [
+      {
+        "url": "https://github.com/sheyna/literary-map",
+        "name": "Front End"
+      },
+      {
+        "url": "https://github.com/sheyna/literary-map-server",
+        "name": "Back End"
+      }
+    ],
+    "liveSite": "https://imaginative-narwhal-d3f6c2.netlify.app",
+    "description": "An interactive map showing literary locations in England. England has a long and celebrated literary history. Learn about places that have a connection to that history. This project allows users to save the favorite locations and review them all on the favroites page.",
+    "features": [
+      "Explore the literary locations of England with this fun map",
+      "Click on a location and learn about the literary works connected with it",
+      "Log in and save your favorites",
+      "Custom design",
+      "Responsive design: works great in mobile and desktop"
+    ],
+    "projectDate": "October 2023",
+    "techStack": [
+      "React", "Express.js", "JavaScript", "Auth0", "Mongo/Mongoose"
+    ],
+    "images": [
+      {
+        "src": "images/litmap-1.png",
+        "alt": "Literary Map of England home page"
+      },
+      {
+        "src": "images/litmap-2.png",
+        "alt": "Literary Map of England — clicking on a location brings up a info box about that location's liteary connection."
+      },
+      {
+        "src": "images/litmap-3.png",
+        "alt": "Literary Map of England favorites page allows users to see all the locations they favorited."
+      }
     ]
   },
   {
     "id": 2,
-    "title": "Literary Map of England",
-    "gitRepo": [
-      "https://github.com/sheyna/literary-map",
-      "https://github.com/sheyna/literary-map-server"
-    ],
-    "liveSite": "https://imaginative-narwhal-d3f6c2.netlify.app",
-    "description": "",
-    "projectDate": "",
-    "techStack": [
-      ""
-    ],
-    "images": [
-      "images/litmap-1.png",
-      "images/litmap-2.png",
-      "images/litmap-3.png"
-    ]
-  },
-  {
-    "id": 3,
     "title": "Star Wars Character Index",
     "gitRepo": [
-      "https://github.com/sheyna/star-wars-characters"
+      {
+        "url": "https://github.com/sheyna/star-wars-characters",
+        "name": "Front End"
+      }
     ],
     "liveSite": "https://unruffled-brown-a55286.netlify.app",
-    "description": "",
-    "projectDate": "",
+    "description": "The Star Wars API is full of statistical information about the Star Wars universe, this projec takes that inforamtion and presents it in a delightful visual way.",
+    "features": [
+      "Displays data from the Star Wars API in a fun and useful way",
+      "Custom design",
+      "Embelishments added using the Star Wars 'Aurebesh' font",
+      "Responsive design: works great in mobile and desktop"
+    ],
+    "projectDate": "2022",
     "techStack": [
-      ""
+      "React", "API", "JavaScript"
     ],
     "images": [
-      "images/starwars-1.png",
-      "images/starwars-2.png"
+      {
+        "src": "images/starwars-1.png",
+        "alt": "Star Wars Character Index home page"
+      },
+      {
+        "src": "images/starwars-2.png",
+        "alt": "Star Wars Character Index character details page"
+      }
     ]
   }
 ]

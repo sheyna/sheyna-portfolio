@@ -1,0 +1,42 @@
+.screenshots {
+  height: auto;
+  border: 1px solid var(--color-light--1);
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+.pageTitle {
+  padding-bottom: 0.1em;
+}
+
+.projectDate {
+  padding-bottom: 0.8rem;
+  color: var(--color-light--1);
+}
+
+.linkListItem {
+  margin: .3rem;
+  &:hover {
+    color: var(--color-brand--1);
+  }
+}
+
+.stackList {
+  margin: .1rem;
+}
+
+.subhead {
+  font-size: 1.5rem;
+  color: var(--color-light--1);
+  margin-top: 1rem;
+  border-top: 1px solid var(--color-light--1);
+  /* border-bottom: 1px solid var(--color-light--1); */
+  padding-top: 1rem;
+}
+
+.bodyText {
+  margin-bottom: 1rem;
+  /* border-top: 1px solid var(--color-light--1); */
+  border-bottom: 1px solid var(--color-light--1);
+  padding: 1rem 0 1rem;
+}

@@ -31,28 +31,6 @@
     @media only screen and (max-width: 484px) {
       .navItems li {
         display: block; } }
-    .navItems li a {
-      color: var(--color-light--1);
-      text-decoration: none; }
-      .navItems li a:hover {
-        color: var(--color-brand--1); }
-      .navItems li a:active {
-        color: var(--color-brand--3); }
-    .navItems li a {
-      color: var(--color-light--1);
-      text-decoration: none; }
-      .navItems li a:hover {
-        color: var(--color-brand--1); }
-      .navItems li a:active {
-        color: var(--color-brand--3); }
-    /* current page style */
-    .navItems li .currentPage {
-      color: var(--color-brand--3);
-      text-decoration: none; }
-      .navItems li a:hover {
-        color: var(--color-brand--1); }
-      .navItems li a:active {
-        color: var(--color-brand--3); }
 
 
 

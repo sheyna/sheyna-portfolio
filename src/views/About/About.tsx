@@ -6,7 +6,7 @@ export default function About() {
   return (
     <>
       <Header/>
-      <SiteNav page="about"/>
+      <SiteNav/>
       <main id="mainContent">
         <h1 className="pageTitle">About</h1>
         <p>I am an experienced front-end web developer with 12+ years of experience in graphic design, coding, and visual storytelling. As an instructor in web design and development, I keep up to date on changes in technology to deliver the most up-to-date instruction. I bring my design skills, technical understanding, and background in print journalism to every role.</p>

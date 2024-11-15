@@ -3,9 +3,13 @@ import { Link } from "react-router-dom"
 import SocialMedia from '../SocialMedia/SocialMedia';
 import styles from "./Header.module.css"
 
-export default function Header(props) {
+type headerProps = {
+  additionalClass?: string
+}
+
+export default function Header({ additionalClass }: headerProps) {
   let headerStyles = styles.siteHeader;
-  if (props.additionalClass) headerStyles += ` ${styles[props.additionalClass]}`;
+  if (additionalClass) headerStyles += ` ${styles[additionalClass]}`;
   
   return (
     <header role="banner" className={headerStyles} id="headerTarget">

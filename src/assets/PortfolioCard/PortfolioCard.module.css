@@ -1,6 +1,8 @@
 .portfolioCard {
   position: relative;
-
+  @media only screen and (max-width: 599px) {
+    min-width: 311px;
+  }
 }
 
 .actionsBar {

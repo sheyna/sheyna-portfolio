@@ -53,3 +53,28 @@ main {
 .no-margin-bottom {
   padding-bottom: 0;
   margin-bottom: 0 }
+
+
+
+.navLinks li a {
+  color: var(--color-light--2);
+  text-decoration: none; }
+  .navLinks li a:hover {
+    color: var(--color-brand--1); }
+  .navLinks li a:active {
+    color: var(--color-brand--3); }
+.navLinks li a {
+  color: var(--color-light--2);
+  text-decoration: none; }
+  .navLinks li a:hover {
+    color: var(--color-brand--1); }
+  .navLinks li a:active {
+    color: var(--color-brand--3); }
+/* current page style */
+.navLinks li a.active {
+  color: var(--color-brand--3);
+  text-decoration: none; }
+  .navLinks li a:hover {
+    color: var(--color-brand--1); }
+  .navLinks li a:active {
+    color: var(--color-brand--3); }
